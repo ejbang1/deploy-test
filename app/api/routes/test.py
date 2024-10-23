@@ -3,7 +3,7 @@ from fastapi import APIRouter, FastAPI
 
 router = APIRouter()
 
-@router.get("test")
+@router.get("/test")
 def test(): 
     return JSONResponse(
         status_code=200,
