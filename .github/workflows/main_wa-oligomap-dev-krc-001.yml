@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'wa-oligomap-dev-krc-001'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CAB0639C8ED047D1A3BBF455FD446982 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7FDE94C6E2E4DFD909032CA61DA2B0D }}
